@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background: #eceff1;
+}
+
+header {
+    background: #37474f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    margin: 8px;
+    text-decoration: none;
+    color: #37474f;
+    font-weight: bold;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+p {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+    }
+}
