@@ -1,73 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Contact - My Portfolio</title>
-    <link rel="stylesheet" href="contact.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact</title>
+  <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <div class="header">
-        <h1>My Portfolio</h1>
-        <div class="menu">
-            <a href="index.html">Home</a>
-            <a href="project.html">Projects</a>
-            <a href="contact.html" class="active">Contact</a>
-            <a href="loginpage.html">Sign Up</a>
-        </div>
-    </div>
-
-    <div class="content">
-        <div class="contact-box">
-            <h2>Contact Me</h2>
-
-            
-            <div class="contact-info">
-                <h3>My Contact Details</h3>
-                <div class="detail">
-                    <p><strong>Email:</strong> pemtsheringsherpa20251061@gmail.com</p>
-                </div>
-                <div class="detail">
-                    <p><strong>Phone:</strong> +977-XXXXXXXXX</p>
-                </div>
-                <div class="detail">
-                    <p><strong>Location:</strong> Kathmandu, Nepal</p>
-                </div>
-            </div>
-            
-            <div class="form-box">
-                <form action="#" method="post">
-                    <div class="form-group">
-                        <label>Your Name:</label>
-                        <input type="text" name="name">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label>Your Email:</label>
-                        <input type="email" name="email">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label>Subject:</label>
-                        <input type="text" name="subject">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label>Message:</label>
-                        <textarea name="message" rows="4"></textarea>
-                    </div>
-                    
-                    <input type="submit" value="Send Message" class="submit-btn">
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer">
-        <div class="footer-links">
-            <a href="index.html">Home</a>
-            <a href="project.html">Projects</a>
-            <a href="contact.html">Contact</a>
-            <a href="loginpage.html">Sign Up</a>
-        </div>
-    </div>
+  <header>
+    <h1>Contact Me | Sujal Thapa | sujal20251112@nami.edu.np</h1>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger">
+        ☰
+    </label>
+    
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="videodemo.html">Video Demo</a></li>
+        <li><a href="sitereport.html">Site Report</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="contact-section">
+      <h2>Link Up</h2>
+      <form action="sujal@example.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <input type="submit" value="Send">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>All rights reserved.</p>
+  </footer>
 </body>
 </html>
