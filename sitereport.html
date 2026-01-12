@@ -1,53 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Site Report</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sitereport.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Site Report </title>
+  <link rel="stylesheet" href="sitereport.css">
 </head>
 <body>
-
-<header>
+  <header>
     <h1>Site Report</h1>
-</header>
-
-<nav>
-    <a href="index.html">Home</a>
-    <a href="project.html">Projects</a>
-    <a href="contact.html">Contact</a>
-    <a href="videoDemo.html">Video Demo</a>
-    <a href="sitereport.html">Site Report</a>
-</nav>
-
-<main>
-    <p>
-        This website was developed as part of the CSY1063 Web Development module.
-        The main aim of this project was to learn the fundamentals of HTML and CSS
-        while building a multi-page responsive website
-    </p>
-
-    <p>
-        Semantic HTML elements such as header, nav, main, section, article and footer
-        were used to improve structure and accessibility
-    </p>
-
-    <p>
-        CSS Grid was implemented on the projects page to demonstrate modern layout
-        techniques. Separate CSS files were used for each page to keep styling
-        organised and beginner-friendly...
-    </p>
-
-    <p>
-        Throughout this assignment, version control using Git and GitHub was used
-        to track progress and manage daily commits. This helped in understanding
-        real-world development workflows.
-    </p>
-</main>
-
-<footer>
-    <p>Sujal Thapa | 20251112</p>
-</footer>
-
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger">
+        ☰
+    </label>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="videodemo.html">Video Demo</a></li>
+        <li><a href="sitereport.html">Site Report</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="report">
+      <h2>Learning throughout the project</h2>
+      <p>Throughout this web development project, I learned many foundational skills in HTML and CSS. I started this project by building a structure of the web using simple HTML elements while visualizing the final result the base was written with elements like nav, header, footer, section and many more. I planned to implement a consistent navigation menu bar linking all pages making it easier for user to move through sites. After making the skeleton, I used CSS elements to make the web pages more stylish and less complex. During this, I learned about CSS Grid and CSS Flexbox, for instance, in the project page I used grid layout to arrange the mutiple project cards.The navigation menu uses Flexbox to distribute links evenly. </p>
+      <p>Choosing fonts and colors was part of the design process. I selected simple, readable fonts and a light background that I though would be a lil more eye catching and unique. I explored few portfolio website that helped me guide my design decisions. I used my knowledge related to web and made</p>
+      <p>I have validate my work with the help of W3C HTML and CSS validators. Below are some screenshot od the validation.</p>
+      <figure>
+        <img src="pjh_validator.png" alt="HTML Validation Screenshot">
+        <figcaption>HTML Validation Screenshot</figcaption>
+      </figure>
+      <figure>
+        <img src="in_validator.png" alt="HTML Validation Screenshot">
+        <figcaption>HTML Validation Screenshot </figcaption>
+      </figure>
+      <figure>
+        <img src="pjc_validator.png" alt="CSS Validation Screenshot">
+        <figcaption>CSS Validation Screenshot</figcaption>
+      </figure>
+      <p>You can access the video demo of my projects where i have expressed my thoughts related to my projects through a short video. Click <a href = "https://youtu.be/v9sxV3vABuA">here</a> or visit the video demo page.</p>
+    </section>
+  </main>
+  <footer>
+    <p>All rights reserved.</p>
+  </footer>
 </body>
 </html>
